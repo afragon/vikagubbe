@@ -49,10 +49,10 @@ btn4El.addEventListener('click', function () {
 });
 
 btnResetEl.addEventListener('click', function () {
-  headEl.style.backgroundImage = `url()`;
-  torsoEl.style.backgroundImage = `url()`;
-  legsEl.style.backgroundImage = `url()`;
-  feetEl.style.backgroundImage = `url()`;
+  headEl.style.backgroundImage = `url(paper.jpeg)`;
+  torsoEl.style.backgroundImage = `url(paper.jpeg)`;
+  legsEl.style.backgroundImage = `url(paper.jpeg)`;
+  feetEl.style.backgroundImage = `url(paper.jpeg)`;
 
   btn1El.classList.remove('hidden');
   btn2El.classList.remove('hidden');

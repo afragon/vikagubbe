@@ -18,8 +18,6 @@ body {
 
   background-color: antiquewhite;
 
-  );
-
   /*background: linear-gradient(to top left, #28b487, #7dd56f);*/
 }
 
@@ -47,7 +45,7 @@ body {
   background-image: url(paper.jpeg);
   text-align: center;
   padding-top: 50px;
-  transform: skew(10deg);
+  transform: skew(5deg);
 }
 
 .torso {
@@ -55,7 +53,7 @@ body {
   background-image: url(paper.jpeg);
   text-align: center;
   padding-top: 50px;
-  transform: skew(-10deg);
+  transform: skew(-5deg);
 }
 
 .legs {
@@ -63,7 +61,7 @@ body {
   background-image: url(paper.jpeg);
   text-align: center;
   padding-top: 50px;
-  transform: skew(10deg);
+  transform: skew(5deg);
 }
 
 .feet {
@@ -71,7 +69,7 @@ body {
   background-image: url(paper.jpeg);
   text-align: center;
   padding-top: 50px;
-  transform: skew(-10deg);
+  transform: skew(-5deg);
 }
 
 .btn1 {

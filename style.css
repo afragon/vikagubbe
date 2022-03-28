@@ -12,9 +12,6 @@ html {
 }
 
 body {
-  height: 100vh;
-  display: flex;
-  align-items: center;
   background-color: lightgray;
   /*background: linear-gradient(to top left, #28b487, #7dd56f);*/
 }
@@ -24,7 +21,7 @@ body {
   outline: 10px solid;
   width: 400px;
   height: 550px;
-  margin: 75px;
+  margin: 20px;
 }
 
 .part {
@@ -93,4 +90,8 @@ body {
 
 h1 {
   padding: 10px;
+}
+
+header {
+  margin: 10px;
 }

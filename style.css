@@ -16,12 +16,8 @@ body {
   background-position: center;
   background-repeat: repeat;*/
 
-  background: rgb(2, 0, 36);
-  background: linear-gradient(
-    90deg,
-    rgba(2, 0, 36, 1) 0%,
-    rgba(9, 9, 121, 1) 35%,
-    rgba(0, 212, 255, 1) 100%
+  background-color: antiquewhite;
+
   );
 
   /*background: linear-gradient(to top left, #28b487, #7dd56f);*/
@@ -105,7 +101,6 @@ body {
 
 h1 {
   padding: 10px;
-  color: white;
 }
 
 header {

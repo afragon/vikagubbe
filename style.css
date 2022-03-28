@@ -12,23 +12,34 @@ html {
 }
 
 body {
-  background-color: lightgray;
+  /*background-color: darkgrey;
+  background-position: center;
+  background-repeat: repeat;*/
+
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+
   /*background: linear-gradient(to top left, #28b487, #7dd56f);*/
 }
 
 .container {
-  background-color: aquamarine;
-  outline: 10px solid;
   width: 400px;
   height: 550px;
-  margin: 20px;
+  margin: 0 auto;
 }
 
 .part {
   width: 100%;
   height: 25%;
-  background-color: beige;
+  background-color: bisque;
   outline: 1px dashed;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px,
+    rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
 }
 
 .hidden {
@@ -36,31 +47,35 @@ body {
 }
 
 .head {
-  background-color: bisque;
-  background-image: url();
+  background-color: whitesmoke;
+  background-image: url(paper.jpeg);
   text-align: center;
   padding-top: 50px;
+  transform: skew(10deg);
 }
 
 .torso {
-  background-color: antiquewhite;
-  background-image: url();
+  background-color: bisque;
+  background-image: url(paper.jpeg);
   text-align: center;
   padding-top: 50px;
+  transform: skew(-10deg);
 }
 
 .legs {
-  background-color: blueviolet;
-  background-image: url();
+  background-color: bisque;
+  background-image: url(paper.jpeg);
   text-align: center;
   padding-top: 50px;
+  transform: skew(10deg);
 }
 
 .feet {
-  background-color: yellowgreen;
-  background-image: url();
+  background-color: bisque;
+  background-image: url(paper.jpeg);
   text-align: center;
   padding-top: 50px;
+  transform: skew(-10deg);
 }
 
 .btn1 {
@@ -90,6 +105,7 @@ body {
 
 h1 {
   padding: 10px;
+  color: white;
 }
 
 header {

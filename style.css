@@ -24,8 +24,7 @@ body {
   outline: 10px solid;
   width: 400px;
   height: 550px;
-  position: relative;
-  margin: 0 auto;
+  margin: 75px;
 }
 
 .part {

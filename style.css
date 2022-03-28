@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  background-color: lightgray;
+  /*background: linear-gradient(to top left, #28b487, #7dd56f);*/
+}
+
+.container {
+  background-color: aquamarine;
+  outline: 10px solid;
+  width: 400px;
+  height: 550px;
+  position: relative;
+  margin: 0 auto;
+}
+
+.part {
+  width: 100%;
+  height: 25%;
+  background-color: beige;
+  outline: 1px dashed;
+}
+
+.hidden {
+  display: none;
+}
+
+.head {
+  background-color: bisque;
+  background-image: url();
+  text-align: center;
+  padding-top: 50px;
+}
+
+.torso {
+  background-color: antiquewhite;
+  background-image: url();
+  text-align: center;
+  padding-top: 50px;
+}
+
+.legs {
+  background-color: blueviolet;
+  background-image: url();
+  text-align: center;
+  padding-top: 50px;
+}
+
+.feet {
+  background-color: yellowgreen;
+  background-image: url();
+  text-align: center;
+  padding-top: 50px;
+}
+
+.btn1 {
+  width: 100px;
+  height: 50px;
+}
+
+.btn2 {
+  width: 100px;
+  height: 50px;
+}
+
+.btn3 {
+  width: 100px;
+  height: 50px;
+}
+
+.btn4 {
+  width: 100px;
+  height: 50px;
+}
+
+.btnReset {
+  width: 100px;
+  height: 50px;
+}
+
+h1 {
+  padding: 10px;
+}
